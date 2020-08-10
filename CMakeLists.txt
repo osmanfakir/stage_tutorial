@@ -209,3 +209,14 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(basic_control src/basic_control.cpp)
+target_link_libraries(basic_control ${catkin_LIBRARIES})
+
+
+
+
+
+
+
+

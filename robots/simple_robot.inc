@@ -21,6 +21,6 @@ define simple_robot position(
     size [0.4 0.3 0.2]
     gui_nose 1
     drive "diff"
-    color "red"
+    color "green"
     laser(pose [0.23 0.0 -0.15 0.0])
 )
